@@ -13,6 +13,7 @@ python train_frcnn.py /path/to/pascalvoc/data/
 - simple_parser.py provides an alternative way to input data, using a text file. Simply provide a text file, with each
 line containing:
 filepath,x1,y1,x2,y2,class_name
+
 For example:
 /data/imgs/img_001.jpg,837,346,981,456,dongba
 /data/imgs/img_002.jpg,215,312,279,391,chinese
