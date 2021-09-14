@@ -1,7 +1,6 @@
-Cloned from https://github.com/yhenon/keras-frcnn
+Cloned from https://github.com/yhenon/keras-rcnn
 
 Added resnet101 support.
-
 
 # keras-frcnn
 Keras implementation of Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
@@ -15,8 +14,8 @@ python train_frcnn.py /path/to/pascalvoc/data/
 line containing:
 filepath,x1,y1,x2,y2,class_name
 For example:
-/data/imgs/img_001.jpg,837,346,981,456,cow
-/data/imgs/img_002.jpg,215,312,279,391,cat
+/data/imgs/img_001.jpg,837,346,981,456,dongba
+/data/imgs/img_002.jpg,215,312,279,391,chinese
 
 - test_frcnn.py can be used to perform inference, given pretrained weights. Specify a path to the folder containing
 images:
@@ -28,10 +27,10 @@ paper. The anchor box sizes are [128, 256, 512] and the ratios are [1:1, 1:2, 2:
 
 Example output:
 
-![ex1](http://i.imgur.com/UtGXhtd.jpg)
-![ex2](http://i.imgur.com/Szf78o2.jpg)
-![ex3](http://i.imgur.com/OjVXTbn.jpg)
-![ex4](http://i.imgur.com/9Fbe2Ow.jpg)
+![ex1](https://github.com/yddcode/Faster-RCNN-Keras/tree/main/results_imgs/0.png)
+![ex2](https://github.com/yddcode/Faster-RCNN-Keras/tree/main/results_imgs/1.png)
+![ex3](https://github.com/yddcode/Faster-RCNN-Keras/tree/main/results_imgs/2.png)
+![ex4](https://github.com/yddcode/Faster-RCNN-Keras/tree/main/results_imgs/3.png)
 
 # Useful Links
 A report of this code from zhihu: https://zhuanlan.zhihu.com/p/28585873
