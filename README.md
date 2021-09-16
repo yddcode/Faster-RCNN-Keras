@@ -14,15 +14,18 @@ python train_frcnn.py /path/to/pascalvoc/data/
 
 - simple_parser.py provides an alternative way to input data, using a text file. Simply provide a text file, with each
 line containing:
+
 filepath,x1,y1,x2,y2,class_name
 
 For example:
 
 /data/imgs/img_001.jpg,837,346,981,456,naxi
+
 /data/imgs/img_002.jpg,215,312,279,391,chinese
 
 - test_frcnn.py can be used to perform inference, given pretrained weights. Specify a path to the folder containing
 images:
+
 python test_frcnn.py /path/to/imgs/
 
 /results_imgs is predicted image.
@@ -33,10 +36,10 @@ paper. The anchor box sizes are [128, 256, 512] and the ratios are [1:1, 1:2, 2:
 
 Example output:
 
-![ex1](https://github.com/yddcode/Faster-RCNN-Keras/tree/main/results_imgs/0.png)
-![ex2](https://github.com/yddcode/Faster-RCNN-Keras/tree/main/results_imgs/1.png)
-![ex3](https://github.com/yddcode/Faster-RCNN-Keras/tree/main/results_imgs/2.png)
-![ex4](https://github.com/yddcode/Faster-RCNN-Keras/tree/main/results_imgs/3.png)
+!(ex1) (https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/0.png)
+!(ex2) (https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/1.png)
+!(ex3) (https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/2.png)
+!(ex4) (https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/3.png)
 
 # Useful Links
 A report of this code from zhihu: https://zhuanlan.zhihu.com/p/28585873
