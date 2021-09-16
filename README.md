@@ -1,5 +1,7 @@
 Cloned from https://github.com/yhenon/keras-rcnn
 
+Added Chinese and Naxi detection data set.
+
 Added resnet101 support.
 
 # keras-frcnn
@@ -15,12 +17,15 @@ line containing:
 filepath,x1,y1,x2,y2,class_name
 
 For example:
-/data/imgs/img_001.jpg,837,346,981,456,dongba
+
+/data/imgs/img_001.jpg,837,346,981,456,naxi
 /data/imgs/img_002.jpg,215,312,279,391,chinese
 
 - test_frcnn.py can be used to perform inference, given pretrained weights. Specify a path to the folder containing
 images:
 python test_frcnn.py /path/to/imgs/
+
+/results_imgs is predicted image.
 
 NOTES:
 config.py contains all settings for the train or test run. The default settings match those in the original Faster-RCNN
