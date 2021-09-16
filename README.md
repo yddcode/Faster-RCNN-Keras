@@ -36,10 +36,10 @@ paper. The anchor box sizes are [128, 256, 512] and the ratios are [1:1, 1:2, 2:
 
 Example output:
 
-!(ex1) (https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/0.png)
-!(ex2) (https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/1.png)
-!(ex3) (https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/2.png)
-!(ex4) (https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/3.png)
+!(ex1)(https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/0.png)
+!(ex2)(https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/1.png)
+!(ex3)(https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/2.png)
+!(ex4)(https://github.com/yddcode/Faster-RCNN-Keras/blob/main/results_imgs/3.png)
 
 # Useful Links
 A report of this code from zhihu: https://zhuanlan.zhihu.com/p/28585873
