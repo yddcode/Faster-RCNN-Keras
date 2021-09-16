@@ -2,6 +2,10 @@ Cloned from https://github.com/yhenon/keras-rcnn
 
 Added Chinese and Naxi detection data set.
 
+labelme 生成的json文件：
+
+链接：https://pan.baidu.com/s/1M-h4H6UL1PGztUaWMyLlZQ 提取码：hre8
+
 Added resnet101 support.
 
 # keras-frcnn
